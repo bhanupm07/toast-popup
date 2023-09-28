@@ -10,6 +10,11 @@ body {
   position: relative;
 }
 
+.card{
+  padding: 0;
+  border: none;
+}
+
 .main {
   display: flex;
   flex-direction: column;
