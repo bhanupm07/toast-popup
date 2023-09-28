@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Popup</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="card">
+        <div class="top-bar">
+            <div class="top-text">Toast Popup</div>
+            <hr>
+        </div>
+        <div class="main">
+            <div class="right select">
+            <SELECT id="horizontal">
+                <OPTION Value="Right">Right</OPTION>
+                <OPTION Value="Left">Left</OPTION>
+            </SELECT>
+            </div>
+            <div class="top select">
+            <SELECT class="vertical">
+                <OPTION Value="Top">Top</OPTION>
+                <OPTION Value="Bottom">Bottom</OPTION>
+            </SELECT>
+            </div>
+            <div class="success select">
+            <SELECT class="type">
+                <OPTION Value="Success">Success</OPTION>
+                <OPTION Value="Error">Error</OPTION>
+                <OPTION Value="Warning">Warning</OPTION>
+                <OPTION Value="Info">Info</OPTION>
+            </SELECT>
+            </div>
+            <div class="message">
+            <input type="text" placeholder="Message" value="This is a toast message!" class="Mess">
+            </div>
+            <div class="duration">
+                Duration
+                <input class="time" type="range" min="1" max="10" value="1">
+            </div>
+            <div class="toast">
+            <button class="btn">Show Toast</button>
+            </div>
+        </div>
+    </div>
+    <div class="output"> <span class="outputpara">this is output   </span> <span class="close">X</span></div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* border: 2px red solid; */
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text {
+  padding: 1.5rem;
+  /* border: 2px red solid; */
+  font-size: 1.7rem;
+  font-weight: 1000;
+}
+
+hr {
+  height: 0.3rem;
+  background-color: grey;
+}
+
+select {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.message {
+  margin-top: 1.5rem;
+}
+
+.Mess {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.duration {
+  margin-top: 1.5rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.output {
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 7px;
+  position: absolute;
+  display: none;
+  /* animation: slideInLeft 1s ease-in 1s 1; */
+}
+
+.close {
+  font-weight: 700;
+  cursor: pointer;
+}
