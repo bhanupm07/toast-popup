@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 
-.card{
+.card {
   padding: 0;
   border: none;
 }
@@ -67,10 +67,12 @@ button:hover {
 
 .output {
   border: 1px solid black;
-  padding: 4px;
+  padding: 10px;
+  font-size: 20px;
   border-radius: 7px;
   position: absolute;
   display: none;
+  color: white;
   /* animation: slideInLeft 1s ease-in 1s 1; */
 }
 

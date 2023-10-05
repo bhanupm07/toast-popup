@@ -35,12 +35,16 @@ function showToast() {
   }
   if (typeEl.value === "Success") {
     outputEl.style.backgroundColor = "green";
+    outputEl.style.color = "white";
   } else if (typeEl.value === "Error") {
     outputEl.style.backgroundColor = "orange";
+    outputEl.style.color = "white";
   } else if (typeEl.value === "Warning") {
     outputEl.style.backgroundColor = "red";
+    outputEl.style.color = "white";
   } else if (typeEl.value === "Info") {
     outputEl.style.backgroundColor = "beige";
+    outputEl.style.color = "black";
   }
   outputparaEl.textContent = MessEl.value;
   console.log(outputparaEl.textContent);
